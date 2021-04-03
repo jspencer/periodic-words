@@ -1,0 +1,9 @@
+[package]
+name = "periodic-words"
+version = "0.1.0"
+authors = ["Jason Spencer <jason@typi.ca>"]
+edition = "2018"
+
+[dependencies]
+maplit = "1.0.2"
+structopt = "0.3.21"
