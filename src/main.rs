@@ -219,6 +219,7 @@ impl PeriodicWords {
     }
 
     fn print_matches(&self, line: String, show_misses: bool) {
+        let line = line.to_ascii_lowercase();
         let maybe_compound = self.gen_compound(line.as_str());
         if let Some(compound) = maybe_compound {
             let compound = Compound(compound.into_iter().map(ToString::to_string).collect());
