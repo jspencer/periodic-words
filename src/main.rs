@@ -34,19 +34,14 @@ fn main() {
     }
 }
 
-struct Compound(pub Vec<String>);
-
-impl Compound {
-    fn push(&mut self, value: String) {
-        self.0.push(value)
-    }
-}
+struct Compound(pub Vec<&'static str>);
 
 impl fmt::Display for Compound {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        self.0.iter().fold(Ok(()), |result, element| {
-            result.and_then(|_| write!(f, "[{}]", element))
-        })
+        for element in &self.0 {
+            write!(f, "[{}]", element)?;
+        }
+        Ok(())
     }
 }
 
@@ -222,7 +217,7 @@ impl PeriodicWords {
         let line = line.to_ascii_lowercase();
         let maybe_compound = self.gen_compound(line.as_str());
         if let Some(compound) = maybe_compound {
-            let compound = Compound(compound.into_iter().map(ToString::to_string).collect());
+            let compound = Compound(compound);
             println!("{} {}", line, compound);
         } else if show_misses {
             println!(
