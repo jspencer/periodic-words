@@ -51,7 +51,7 @@ xenon "[Xenon][Nobelium][Nitrogen]"
 
 Phosphorous is the only one that refers to itself twice
 ```shell
-phosphorus "[Phosphorus][Hydrogen][Oxygen][Sulfur][Phosphorus][Hydrogen][Oxygen][Ruthenium][Sulfur]"
+phosphorus "[Phosphorus][Holmium][Sulfur][Phosphorus][Holmium][Ruthenium][Sulfur]"
 ```
 
 You can check this yourself using the `elements-as-a-word-list.txt` file in this repo.
