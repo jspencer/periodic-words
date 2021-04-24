@@ -35,23 +35,23 @@ Here is another source of word lists in a few languages: https://github.com/lore
 Now I'm sure you're wondering if any of the names of the elements can themselves be written out using the element abbreviations. 
 
 ```shell
-silver "[Sulfur][Iodine][Livermorium][Erbium]"
-copper "[Carbon][Oxygen][Phosphorus][Phosphorus][Erbium]"
-oganesson "[Oxygen][Gallium][Nitrogen][Einsteinium][Sulfur][Oxygen][Nitrogen]"
-silicon "[Sulfur][Iodine][Lithium][Carbon][Oxygen][Nitrogen]"
+silver "[Silicon][Livermorium][Erbium]"
+copper "[Cobalt][Phosphorus][Phosphorus][Erbium]"
+oganesson "[Oxygen][Gallium][Neon][Sulfur][Sulfur][Oxygen][Nitrogen]"
 tin "[Titanium][Nitrogen]"
 ```
 
 Carbon and Xenon do it starting with their own element.
 
 ```shell
-carbon "[Carbon][Argon][Boron][Oxygen][Nitrogen]"
-xenon "[Xenon][Nitrogen][Oxygen][Nitrogen]"
+silicon "[Silicon][Lithium][Cobalt][Nitrogen]"
+carbon "[Calcium][Rubidium][Oxygen][Nitrogen]"
+xenon "[Xenon][Nobelium][Nitrogen]"
 ```
 
 Phosphorous is the only one that refers to itself twice
 ```shell
-phosphorus "[Phosphorus][Hydrogen][Oxygen][Sulfur][Phosphorus][Hydrogen][Oxygen][Ruthenium][Sulfur]"
+phosphorus "[Phosphorus][Holmium][Sulfur][Phosphorus][Holmium][Ruthenium][Sulfur]"
 ```
 
 You can check this yourself using the `elements-as-a-word-list.txt` file in this repo.
@@ -60,12 +60,12 @@ If you're writing a Chemistry textbook, I bet you could find a way to use this f
 
 ```shell
 Chemistry is brew "[Boron][Rhenium][Tungsten]"
-Chemistry is concoction "[Carbon][Oxygen][Nitrogen][Carbon][Oxygen][Carbon][Titanium][Oxygen][Nitrogen]"
+Chemistry is concoction "[Cobalt][Nitrogen][Cobalt][Carbon][Titanium][Oxygen][Nitrogen]"
 Chemistry is dynamite "[Dysprosium][Nitrogen][Americium][Iodine][Tellurium]"
-Chemistry is fractionation "[Fluorine][Radium][Carbon][Titanium][Oxygen][Nitrogen][Astatine][Iodine][Oxygen][Nitrogen]"
-Chemistry is gasses "[Gallium][Sulfur][Sulfur][Einsteinium]"
-Chemistry is esterases "[Einsteinium][Tellurium][Radium][Sulfur][Einsteinium]"
-Chemistry is pressure "[Phosphorus][Rhenium][Sulfur][Sulfur][Uranium][Rhenium]"
+Chemistry is fractionation "[Francium][Actinium][Titanium][Oxygen][Sodium][Titanium][Oxygen][Nitrogen]"
+Chemistry is gasses "[Gallium][Sulfur][Selenium][Sulfur]"
+Chemistry is esterases "[Einsteinium][Tellurium][Radium][Selenium][Sulfur]"
+Chemistry is pressure "[Praseodymium][Einsteinium][Sulfur][Uranium][Rhenium]"
 Chemistry is salts "[Sulfur][Aluminium][Tennessine]"
 Chemistry is the solution "[Sulfur][Oxygen][Lutetium][Titanium][Oxygen][Nitrogen]"
 Chemistry is synthesis "[Sulfur][Yttrium][Nitrogen][Thorium][Einsteinium][Iodine][Sulfur]"
@@ -73,11 +73,11 @@ Chemistry is oversaturation "[Oxygen][Vanadium][Erbium][Sulfur][Astatine][Uraniu
 Chemistry is supersaturate "[Sulfur][Uranium][Phosphorus][Erbium][Sulfur][Astatine][Uranium][Radium][Tellurium]"
 Chemistry is alkali "[Aluminium][Potassium][Aluminium][Iodine]"
 Chemistry is catalytic "[Carbon][Astatine][Aluminium][Yttrium][Titanium][Carbon]"
-Chemistry is cationic "[Carbon][Astatine][Iodine][Oxygen][Nitrogen][Iodine][Carbon]"
-Chemistry is calculation "[Carbon][Aluminium][Carbon][Uranium][Lanthanum][Titanium][Oxygen][Nitrogen]"
-Chemistry is calibration "[Carbon][Aluminium][Iodine][Boron][Radium][Titanium][Oxygen][Nitrogen]"
-Chemistry is carcinogenic "[Carbon][Argon][Carbon][Iodine][Nitrogen][Oxygen][Germanium][Nitrogen][Iodine][Carbon]"
-Chemistry is catalysis "[Carbon][Astatine][Aluminium][Yttrium][Sulfur][Iodine][Sulfur]"
+Chemistry is cationic "[Calcium][Titanium][Oxygen][Nickel][Carbon]"
+Chemistry is calculation "[Carbon][Aluminium][Copper][Lanthanum][Titanium][Oxygen][Nitrogen]"
+Chemistry is calibration "[Calcium][Lithium][Bromine][Astatine][Iodine][Oxygen][Nitrogen]"
+Chemistry is carcinogenic "[Carbon][Argon][Carbon][Indium][Oxygen][Germanium][Nickel][Carbon]"
+Chemistry is catalysis "[Carbon][Astatine][Aluminium][Yttrium][Silicon][Sulfur]"
 ```
 
 
