@@ -38,14 +38,14 @@ Now I'm sure you're wondering if any of the names of the elements can themselves
 silver "[Silicon][Livermorium][Erbium]"
 copper "[Cobalt][Phosphorus][Phosphorus][Erbium]"
 oganesson "[Oxygen][Gallium][Neon][Sulfur][Sulfur][Oxygen][Nitrogen]"
+carbon "[Calcium][Rubidium][Oxygen][Nitrogen]"
 tin "[Titanium][Nitrogen]"
 ```
 
-Carbon and Xenon do it starting with their own element.
+Silicon and Xenon do it starting with their own element.
 
 ```shell
 silicon "[Silicon][Lithium][Cobalt][Nitrogen]"
-carbon "[Calcium][Rubidium][Oxygen][Nitrogen]"
 xenon "[Xenon][Nobelium][Nitrogen]"
 ```
 
